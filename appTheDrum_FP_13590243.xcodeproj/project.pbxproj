@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91A904A94D83FA800C4DE943 /* Pods_appTheDrum_FP_13590243.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1569901D3D303346B45F5B90 /* Pods_appTheDrum_FP_13590243.framework */; };
+		93044C6E21BFB02B00442C70 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 93044C6B21BFB02A00442C70 /* ProgressHUD.m */; };
+		93044C6F21BFB02B00442C70 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93044C6C21BFB02B00442C70 /* ProgressHUD.bundle */; };
 		930756D521BD9AFF00F0369D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930756D421BD9AFF00F0369D /* AppDelegate.swift */; };
 		930756D721BD9AFF00F0369D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930756D621BD9AFF00F0369D /* ViewController.swift */; };
 		930756DA21BD9AFF00F0369D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930756D821BD9AFF00F0369D /* Main.storyboard */; };
 		930756DC21BD9B0000F0369D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930756DB21BD9B0000F0369D /* Assets.xcassets */; };
 		930756DF21BD9B0000F0369D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930756DD21BD9B0000F0369D /* LaunchScreen.storyboard */; };
+		930756E721BD9C2000F0369D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930756E621BD9C2000F0369D /* GoogleService-Info.plist */; };
+		93078B8521BEF7A800599740 /* CategoryDrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93078B8421BEF7A800599740 /* CategoryDrum.swift */; };
+		9376668221BDB35700B19181 /* welCome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376668121BDB35700B19181 /* welCome.swift */; };
+		9376668421BE7F3B00B19181 /* coinpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376668321BE7F3B00B19181 /* coinpage.swift */; };
+		9376668621BE875700B19181 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9376668521BE875600B19181 /* coin.wav */; };
+		9376668921BE9D7100B19181 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376668821BE9D7100B19181 /* user.swift */; };
+		9376668B21BEA1CC00B19181 /* userCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376668A21BEA1CC00B19181 /* userCall.swift */; };
+		93A1890021C006C400D43C7D /* DrumSkinStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A188FF21C006C400D43C7D /* DrumSkinStandard.swift */; };
+		93A1890D21C0088D00D43C7D /* Tom3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890121C0088B00D43C7D /* Tom3.mp3 */; };
+		93A1890E21C0088D00D43C7D /* Splash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890221C0088B00D43C7D /* Splash.mp3 */; };
+		93A1890F21C0088D00D43C7D /* CloseHH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890321C0088B00D43C7D /* CloseHH.mp3 */; };
+		93A1891021C0088D00D43C7D /* Snare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890421C0088B00D43C7D /* Snare.mp3 */; };
+		93A1891121C0088D00D43C7D /* Crash1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890521C0088C00D43C7D /* Crash1.mp3 */; };
+		93A1891221C0088D00D43C7D /* OpenHH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890621C0088C00D43C7D /* OpenHH.mp3 */; };
+		93A1891321C0088D00D43C7D /* Tom1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890721C0088C00D43C7D /* Tom1.mp3 */; };
+		93A1891421C0088D00D43C7D /* Crash2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890821C0088C00D43C7D /* Crash2.mp3 */; };
+		93A1891521C0088D00D43C7D /* Floor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890921C0088C00D43C7D /* Floor.mp3 */; };
+		93A1891621C0088D00D43C7D /* Ride.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890A21C0088D00D43C7D /* Ride.mp3 */; };
+		93A1891721C0088D00D43C7D /* Kick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890B21C0088D00D43C7D /* Kick.mp3 */; };
+		93A1891821C0088D00D43C7D /* Tom2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A1890C21C0088D00D43C7D /* Tom2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1569901D3D303346B45F5B90 /* Pods_appTheDrum_FP_13590243.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appTheDrum_FP_13590243.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6740B82512E90919251441DE /* Pods-appTheDrum_FP_13590243.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appTheDrum_FP_13590243.release.xcconfig"; path = "Pods/Target Support Files/Pods-appTheDrum_FP_13590243/Pods-appTheDrum_FP_13590243.release.xcconfig"; sourceTree = "<group>"; };
+		93044C6A21BFB02900442C70 /* appTheDrum_FP_13590243-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "appTheDrum_FP_13590243-Bridging-Header.h"; sourceTree = "<group>"; };
+		93044C6B21BFB02A00442C70 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		93044C6C21BFB02B00442C70 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		93044C6D21BFB02B00442C70 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		930756D121BD9AFF00F0369D /* appTheDrum_FP_13590243.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appTheDrum_FP_13590243.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930756D421BD9AFF00F0369D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		930756D621BD9AFF00F0369D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +51,28 @@
 		930756DB21BD9B0000F0369D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930756DE21BD9B0000F0369D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930756E021BD9B0000F0369D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930756E621BD9C2000F0369D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93078B8421BEF7A800599740 /* CategoryDrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDrum.swift; sourceTree = "<group>"; };
+		9376668021BDA2CC00B19181 /* appTheDrum_FP_13590243.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appTheDrum_FP_13590243.entitlements; sourceTree = "<group>"; };
+		9376668121BDB35700B19181 /* welCome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welCome.swift; sourceTree = "<group>"; };
+		9376668321BE7F3B00B19181 /* coinpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinpage.swift; sourceTree = "<group>"; };
+		9376668521BE875600B19181 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		9376668821BE9D7100B19181 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		9376668A21BEA1CC00B19181 /* userCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userCall.swift; sourceTree = "<group>"; };
+		93A188FF21C006C400D43C7D /* DrumSkinStandard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumSkinStandard.swift; sourceTree = "<group>"; };
+		93A1890121C0088B00D43C7D /* Tom3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tom3.mp3; sourceTree = "<group>"; };
+		93A1890221C0088B00D43C7D /* Splash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Splash.mp3; sourceTree = "<group>"; };
+		93A1890321C0088B00D43C7D /* CloseHH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CloseHH.mp3; sourceTree = "<group>"; };
+		93A1890421C0088B00D43C7D /* Snare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Snare.mp3; sourceTree = "<group>"; };
+		93A1890521C0088C00D43C7D /* Crash1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crash1.mp3; sourceTree = "<group>"; };
+		93A1890621C0088C00D43C7D /* OpenHH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OpenHH.mp3; sourceTree = "<group>"; };
+		93A1890721C0088C00D43C7D /* Tom1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tom1.mp3; sourceTree = "<group>"; };
+		93A1890821C0088C00D43C7D /* Crash2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crash2.mp3; sourceTree = "<group>"; };
+		93A1890921C0088C00D43C7D /* Floor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Floor.mp3; sourceTree = "<group>"; };
+		93A1890A21C0088D00D43C7D /* Ride.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ride.mp3; sourceTree = "<group>"; };
+		93A1890B21C0088D00D43C7D /* Kick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kick.mp3; sourceTree = "<group>"; };
+		93A1890C21C0088D00D43C7D /* Tom2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tom2.mp3; sourceTree = "<group>"; };
+		BEA0AA85D1C2E27ADCED4C71 /* Pods-appTheDrum_FP_13590243.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appTheDrum_FP_13590243.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appTheDrum_FP_13590243/Pods-appTheDrum_FP_13590243.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +80,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A904A94D83FA800C4DE943 /* Pods_appTheDrum_FP_13590243.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06D9D0F6D607CFAD758689D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0AA85D1C2E27ADCED4C71 /* Pods-appTheDrum_FP_13590243.debug.xcconfig */,
+				6740B82512E90919251441DE /* Pods-appTheDrum_FP_13590243.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B86B6CF7522C0454D4DCC8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1569901D3D303346B45F5B90 /* Pods_appTheDrum_FP_13590243.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		930756C821BD9AFF00F0369D = {
 			isa = PBXGroup;
 			children = (
 				930756D321BD9AFF00F0369D /* appTheDrum_FP_13590243 */,
 				930756D221BD9AFF00F0369D /* Products */,
+				06D9D0F6D607CFAD758689D6 /* Pods */,
+				1B86B6CF7522C0454D4DCC8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +125,47 @@
 		930756D321BD9AFF00F0369D /* appTheDrum_FP_13590243 */ = {
 			isa = PBXGroup;
 			children = (
+				9376668021BDA2CC00B19181 /* appTheDrum_FP_13590243.entitlements */,
+				9376668721BE9CD600B19181 /* Models */,
 				930756D421BD9AFF00F0369D /* AppDelegate.swift */,
 				930756D621BD9AFF00F0369D /* ViewController.swift */,
+				9376668321BE7F3B00B19181 /* coinpage.swift */,
+				9376668121BDB35700B19181 /* welCome.swift */,
+				93A188FF21C006C400D43C7D /* DrumSkinStandard.swift */,
+				93078B8421BEF7A800599740 /* CategoryDrum.swift */,
 				930756D821BD9AFF00F0369D /* Main.storyboard */,
 				930756DB21BD9B0000F0369D /* Assets.xcassets */,
 				930756DD21BD9B0000F0369D /* LaunchScreen.storyboard */,
 				930756E021BD9B0000F0369D /* Info.plist */,
+				930756E621BD9C2000F0369D /* GoogleService-Info.plist */,
+				9376668521BE875600B19181 /* coin.wav */,
+				93044C6C21BFB02B00442C70 /* ProgressHUD.bundle */,
+				93044C6D21BFB02B00442C70 /* ProgressHUD.h */,
+				93044C6B21BFB02A00442C70 /* ProgressHUD.m */,
+				93044C6A21BFB02900442C70 /* appTheDrum_FP_13590243-Bridging-Header.h */,
+				93A1890321C0088B00D43C7D /* CloseHH.mp3 */,
+				93A1890521C0088C00D43C7D /* Crash1.mp3 */,
+				93A1890821C0088C00D43C7D /* Crash2.mp3 */,
+				93A1890921C0088C00D43C7D /* Floor.mp3 */,
+				93A1890B21C0088D00D43C7D /* Kick.mp3 */,
+				93A1890621C0088C00D43C7D /* OpenHH.mp3 */,
+				93A1890A21C0088D00D43C7D /* Ride.mp3 */,
+				93A1890421C0088B00D43C7D /* Snare.mp3 */,
+				93A1890221C0088B00D43C7D /* Splash.mp3 */,
+				93A1890721C0088C00D43C7D /* Tom1.mp3 */,
+				93A1890C21C0088D00D43C7D /* Tom2.mp3 */,
+				93A1890121C0088B00D43C7D /* Tom3.mp3 */,
 			);
 			path = appTheDrum_FP_13590243;
+			sourceTree = "<group>";
+		};
+		9376668721BE9CD600B19181 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9376668821BE9D7100B19181 /* user.swift */,
+				9376668A21BEA1CC00B19181 /* userCall.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 930756E321BD9B0000F0369D /* Build configuration list for PBXNativeTarget "appTheDrum_FP_13590243" */;
 			buildPhases = (
+				1D813E30AAFCA4491456AFDA /* [CP] Check Pods Manifest.lock */,
 				930756CD21BD9AFF00F0369D /* Sources */,
 				930756CE21BD9AFF00F0369D /* Frameworks */,
 				930756CF21BD9AFF00F0369D /* Resources */,
+				3ED09B7A8050EE3024F8F5C2 /* [CP] Embed Pods Frameworks */,
+				2314B85DA7519F53B486D643 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +203,12 @@
 				TargetAttributes = {
 					930756D021BD9AFF00F0369D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,21 +235,116 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A1891821C0088D00D43C7D /* Tom2.mp3 in Resources */,
+				9376668621BE875700B19181 /* coin.wav in Resources */,
+				93A1891121C0088D00D43C7D /* Crash1.mp3 in Resources */,
+				93A1890F21C0088D00D43C7D /* CloseHH.mp3 in Resources */,
 				930756DF21BD9B0000F0369D /* LaunchScreen.storyboard in Resources */,
+				93A1891321C0088D00D43C7D /* Tom1.mp3 in Resources */,
+				93044C6F21BFB02B00442C70 /* ProgressHUD.bundle in Resources */,
+				93A1891021C0088D00D43C7D /* Snare.mp3 in Resources */,
+				93A1891221C0088D00D43C7D /* OpenHH.mp3 in Resources */,
+				93A1890E21C0088D00D43C7D /* Splash.mp3 in Resources */,
+				930756E721BD9C2000F0369D /* GoogleService-Info.plist in Resources */,
+				93A1891621C0088D00D43C7D /* Ride.mp3 in Resources */,
+				93A1891521C0088D00D43C7D /* Floor.mp3 in Resources */,
 				930756DC21BD9B0000F0369D /* Assets.xcassets in Resources */,
+				93A1891421C0088D00D43C7D /* Crash2.mp3 in Resources */,
 				930756DA21BD9AFF00F0369D /* Main.storyboard in Resources */,
+				93A1891721C0088D00D43C7D /* Kick.mp3 in Resources */,
+				93A1890D21C0088D00D43C7D /* Tom3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D813E30AAFCA4491456AFDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appTheDrum_FP_13590243-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2314B85DA7519F53B486D643 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-appTheDrum_FP_13590243/Pods-appTheDrum_FP_13590243-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appTheDrum_FP_13590243/Pods-appTheDrum_FP_13590243-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED09B7A8050EE3024F8F5C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-appTheDrum_FP_13590243/Pods-appTheDrum_FP_13590243-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appTheDrum_FP_13590243/Pods-appTheDrum_FP_13590243-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		930756CD21BD9AFF00F0369D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9376668B21BEA1CC00B19181 /* userCall.swift in Sources */,
+				9376668921BE9D7100B19181 /* user.swift in Sources */,
 				930756D721BD9AFF00F0369D /* ViewController.swift in Sources */,
 				930756D521BD9AFF00F0369D /* AppDelegate.swift in Sources */,
+				93A1890021C006C400D43C7D /* DrumSkinStandard.swift in Sources */,
+				9376668421BE7F3B00B19181 /* coinpage.swift in Sources */,
+				93078B8521BEF7A800599740 /* CategoryDrum.swift in Sources */,
+				93044C6E21BFB02B00442C70 /* ProgressHUD.m in Sources */,
+				9376668221BDB35700B19181 /* welCome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,37 +488,46 @@
 		};
 		930756E421BD9B0000F0369D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA0AA85D1C2E27ADCED4C71 /* Pods-appTheDrum_FP_13590243.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = appTheDrum_FP_13590243/appTheDrum_FP_13590243.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 87CPGAAY6F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = appTheDrum_FP_13590243/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Th.ac.su.ict.13590243.FP-AppTheDrum.appTheDrum-FP-13590243";
+				PRODUCT_BUNDLE_IDENTIFIER = "Th.ac.su.ict.13590243.FP-AppTheDrum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "appTheDrum_FP_13590243/appTheDrum_FP_13590243-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		930756E521BD9B0000F0369D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6740B82512E90919251441DE /* Pods-appTheDrum_FP_13590243.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = appTheDrum_FP_13590243/appTheDrum_FP_13590243.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 87CPGAAY6F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = appTheDrum_FP_13590243/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Th.ac.su.ict.13590243.FP-AppTheDrum.appTheDrum-FP-13590243";
+				PRODUCT_BUNDLE_IDENTIFIER = "Th.ac.su.ict.13590243.FP-AppTheDrum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "appTheDrum_FP_13590243/appTheDrum_FP_13590243-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
